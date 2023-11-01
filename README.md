@@ -121,7 +121,7 @@ We will review your pull request and provide feedback as needed.
 
 ## 6. Support and Contact
 
-For any questions, concerns, or support, you can contact us at [support@gxcacademy.com](mailto:support@gxcacademy.com).
+For any questions, concerns, or support, you can contact us at [olgacodes@outlook.com](mailto:olgacodes@outlook.com).
 
 ## 7. License
 

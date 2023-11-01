@@ -1,0 +1,90 @@
+.hero {
+  background: url(../../public/images/Rectangle\ 1.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 74vh;
+  flex-shrink: 0;
+  border-bottom-left-radius: 0 !important;
+}
+
+.logo{
+    background: url(../../public/images/logo.svg);
+    width: 77px;
+    height: 62px;
+}
+.titleC1{
+    display: flex;
+    width: 100%;
+}
+.heroTextSpan{
+    color: #09DD12;
+line-height: normal;
+text-transform: uppercase;
+}
+@media screen and (max-width: 4096px) {
+    .titleBar{
+        padding-top: 10px;
+        width: 90%;
+        margin: auto;
+        display: flex;
+    }
+    .heroTextBox{
+        width: 692px;
+height: 284px;
+flex-shrink: 0;
+padding-top: 68px;
+padding-left: 50px;
+    }
+    .heroText{
+        color: #FFF;
+
+text-shadow: 0px 4px 18px #000;
+font-size: 50px;
+line-height: normal;
+text-transform: uppercase;
+    }
+    .contentContainer{
+        display: flex;
+        
+    }
+    .contentPhoto{
+        width:80%;
+        height: 100%px;
+        border-radius: 40px;
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+    .contentImg, .img1{
+        background: url(../../public/images/rec31.jpeg);
+        background-size: cover;
+        height: 300px;
+        border-radius: 40px;
+    }
+    .img2{
+        background: url(../../public/images/rec41.jpeg) !important;
+        background-size: auto;
+        height: 300px;
+    }
+    .contentTextBox{
+        /* width: 100%; */
+    }
+    .contentHeadText{
+        border-left: 10px solid #09DD12;
+        padding-left: 15px;
+        padding-bottom: 10px;
+    }
+    .contentBodyText{
+        padding-top: 30px;
+        padding-left: 20px;
+    }
+
+    .contentRight .contentTextBox .contentHeadText{
+        margin-top: 30px;
+        padding-left: 20px;
+        margin-left: 60px;
+    }
+    .contentRight .contentTextBox .contentBodyText{
+        padding-left: 20px;
+        margin-left: 60px;
+    }
+}

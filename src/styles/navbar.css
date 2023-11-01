@@ -1,0 +1,40 @@
+.topNav{
+    display: flex;
+}
+
+li{
+    padding: 5px;
+}
+.signup_nav{
+    display: flex;
+padding: 10px;
+justify-content: center;
+align-items: center;
+gap: 10px;
+background: #2E9D07;
+padding:0 8px
+}
+
+.lowerNav{
+    display: flex;
+    position: relative;
+    transform: translateY(-120px);
+height: 80px;
+width: 40%;
+background: #2A102E;
+box-shadow: 0px 4px 40px 0px #000;
+margin: auto;
+color: #09DD12;
+}
+
+.lowerNav ul{
+    display: flex;
+    margin: auto;
+}
+.lowerNav ul li{
+    
+}
+.lowerNav ul li p{
+    margin: auto;
+
+}
